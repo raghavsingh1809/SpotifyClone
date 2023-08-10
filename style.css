@@ -1,0 +1,120 @@
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+
+body{
+    background-color: antiquewhite;
+     
+}
+h1{
+    font-size: 35px;
+    background-image: url('images/h3.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+  font-family: 'Ubuntu' , sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type:none;
+    height: 60px;
+    background-color: black;
+    color:white;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+  width: 44px;
+  padding: 0 6px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 64.5vh;
+    background-color: black;
+    color: white;
+    /* font-family: 'Ubuntu' , sans-serif; */
+    display: flex;
+    margin: 23px auto;
+    width: 60%; 
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('images/bgom.jpeg');
+}
+ 
+
+.bottom{
+    height: 90px;
+    background-color: black;
+    display: flex;
+    color: white;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bolder;
+    
+}
+.icon{
+    padding: 10px;
+    
+}
+#myProgressBar{
+    width: 64vw;
+    text-align: center;
+    padding: 1px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+.songItemContainer{
+    margin-top: 44px;
+}
+.songItem{
+  height: 39px;
+  display: flex;
+  background-color:rgb(137, 8, 30);
+  width: 62%;
+  color: white;
+  margin:  17px -15px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 34px;
+}
+
+.songItem img {
+    width: 38px;
+    padding: 4px;
+    margin: 0px 3px;
+    border-radius: 30px;
+}
+
+.timestamp{
+    margin: 4px 4px;
+} 
+.fa-regular, .far {
+    font-weight: 400;
+    margin: 4px 7px;
+}
+.songInfo{
+    position: absolute;
+    left: 17vw;
+}
+.songInfo img{
+     opacity: 0;
+     transition: opacity 0.4s ease-in;
+}
